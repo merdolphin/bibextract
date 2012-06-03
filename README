@@ -1,0 +1,10 @@
+This is bibextract, a Perl script to extract the .bib entry for a certain .tex file from .bib database. It was droven out of the frustration in understanding other people's script, namely bibdistill. It assumed that the .bib database stored in "/home/lina/texmf/bibtex/bib/biophymd.bib" and .bib abbreviation file in "/home/lina/texmf/bibtex/bib/biophyabbrev.bib", you may modify it based on your usage. It's a very rough in-hourse script without careful refinement, but works great. 
+
+Usage: bibextract file_name.tex 
+
+
+
+***  Licensing: ***
+
+  Bibextract is under GPL, but that does not cause the output produced by
+  bibextract to be under GPL.
